@@ -15,4 +15,7 @@ jobs:
       with:
         title: "Add financial data for the month"
         assignees: "jpadilla,froi" 
-        labels: "community,finance" 
+        labels: "community,finance"
+        
+      env:
+       GITHUB_TOKEN : ${{secrets.GITHUB_TOKEN}}
